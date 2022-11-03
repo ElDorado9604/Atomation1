@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T21:42:47 IST" name="Suite" finished-at="2022-11-02T21:50:32 IST" duration-ms="464581">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T21:42:47 IST" name="Test" finished-at="2022-11-02T21:50:32 IST" duration-ms="464581">
+      <class name="testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:42:53 IST" name="browserLaunch" finished-at="2022-11-02T21:42:56 IST" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:46:12 IST" name="createPOMObjects" finished-at="2022-11-02T21:46:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:46:12 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:46:43 IST" duration-ms="31566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_TestSeriesButton()[pri:-2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:46:43 IST" name="Verify_SSC_CGL_TestSeriesButton" finished-at="2022-11-02T21:47:02 IST" duration-ms="18184" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SSC CGL Mock Test | Avail SSC CGL Test series and prepare online.] but found [Adda247 - India’s No.1 Government Job Preparation platform]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SSC CGL Mock Test | Avail SSC CGL Test series and prepare online.] but found [Adda247 - India’s No.1 Government Job Preparation platform]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_TestSeriesButton(VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_TestSeriesButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:47:02 IST" name="logoutFromApplication" finished-at="2022-11-02T21:47:34 IST" duration-ms="32707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_TestSeriesButton status=FAILURE method=VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_TestSeriesButton()[pri:-2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:47:34 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:47:57 IST" duration-ms="22454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_TestSeriesButton()[pri:-2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:47:57 IST" name="Verify_SSC_CGL_TestSeriesButton" finished-at="2022-11-02T21:48:11 IST" duration-ms="14072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_TestSeriesButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:48:11 IST" name="logoutFromApplication" finished-at="2022-11-02T21:48:34 IST" duration-ms="22771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_TestSeriesButton status=SUCCESS method=VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_TestSeriesButton()[pri:-2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:48:34 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:48:47 IST" duration-ms="13564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_VideoCoursesButton()[pri:1, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:48:47 IST" name="Verify_SSC_CGL_VideoCoursesButton" finished-at="2022-11-02T21:48:47 IST" duration-ms="268" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_VideoCoursesButton(VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.java:127)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_VideoCoursesButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:48:47 IST" name="logoutFromApplication" finished-at="2022-11-02T21:49:11 IST" duration-ms="23525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_VideoCoursesButton status=FAILURE method=VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_VideoCoursesButton()[pri:1, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:49:11 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:49:24 IST" duration-ms="12796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_OnlineLiveClassesButton()[pri:2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:49:24 IST" name="Verify_SSC_CGL_OnlineLiveClassesButton" finished-at="2022-11-02T21:49:27 IST" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_OnlineLiveClassesButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:49:27 IST" name="logoutFromApplication" finished-at="2022-11-02T21:49:50 IST" duration-ms="22734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_OnlineLiveClassesButton status=SUCCESS method=VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_OnlineLiveClassesButton()[pri:2, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method signature="Verify_SSC_CGL_ebooksButton()[pri:3, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:49:50 IST" name="Verify_SSC_CGL_ebooksButton" finished-at="2022-11-02T21:49:50 IST" depends-on-methods="testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_VideoCoursesButton" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_ebooksButton()[pri:3, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_ebooksButton()[pri:3, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_ebooksButton -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:49:50 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:50:03 IST" duration-ms="12819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_BooksButton()[pri:4, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:50:03 IST" name="Verify_SSC_CGL_BooksButton" finished-at="2022-11-02T21:50:07 IST" duration-ms="4160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_BooksButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:50:07 IST" name="logoutFromApplication" finished-at="2022-11-02T21:50:30 IST" duration-ms="22767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_BooksButton status=SUCCESS method=VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG.Verify_SSC_CGL_BooksButton()[pri:4, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:50:30 IST" name="clearObject" finished-at="2022-11-02T21:50:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG@59309333]" started-at="2022-11-02T21:50:31 IST" name="CloseBrowser" finished-at="2022-11-02T21:50:32 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testclasses.VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG -->
+      <class name="testclasses.VerifySSC_CGL_TestSeriesFunctionality">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:42:47 IST" name="browserLaunch" finished-at="2022-11-02T21:42:53 IST" duration-ms="5478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:42:56 IST" name="createPOMObjects" finished-at="2022-11-02T21:42:57 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:42:57 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:43:39 IST" duration-ms="41602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="Verify_SSC_CGL_TestSeriesButton()[pri:1, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:43:39 IST" name="Verify_SSC_CGL_TestSeriesButton" finished-at="2022-11-02T21:44:09 IST" duration-ms="30310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SSC_CGL_TestSeriesButton -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:44:09 IST" name="logoutFromApplication" finished-at="2022-11-02T21:44:35 IST" duration-ms="25811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SSC_CGL_TestSeriesButton status=SUCCESS method=VerifySSC_CGL_TestSeriesFunctionality.Verify_SSC_CGL_TestSeriesButton()[pri:1, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openSSC_CGL_coursePage()[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:44:35 IST" name="openSSC_CGL_coursePage" finished-at="2022-11-02T21:45:01 IST" duration-ms="25757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSSC_CGL_coursePage -->
+        <test-method signature="VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack()[pri:2, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:45:01 IST" name="VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack" finished-at="2022-11-02T21:45:36 IST" duration-ms="35323" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testclasses.VerifySSC_CGL_TestSeriesFunctionality.VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack(VerifySSC_CGL_TestSeriesFunctionality.java:116)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:45:36 IST" name="logoutFromApplication" finished-at="2022-11-02T21:46:12 IST" duration-ms="35529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack status=FAILURE method=VerifySSC_CGL_TestSeriesFunctionality.VerifyUserAbleToBuySSC_CGL_MockTestSeriesPack()[pri:2, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:46:12 IST" name="clearObject" finished-at="2022-11-02T21:46:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testclasses.VerifySSC_CGL_TestSeriesFunctionality@4fb0f2b9]" started-at="2022-11-02T21:50:30 IST" name="CloseBrowser" finished-at="2022-11-02T21:50:31 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testclasses.VerifySSC_CGL_TestSeriesFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
