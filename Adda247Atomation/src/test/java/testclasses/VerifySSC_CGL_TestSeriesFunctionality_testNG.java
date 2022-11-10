@@ -16,12 +16,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import browserSetup.Base;
 import module.LoginPopup;
 import pages.HomePage;
 import pages.MockTestSeriesPackPage;
 import pages.SSC_CGL_TestSeriesPage;
 import pages.SSC_CGL_coursePage;
-import setup.Base;
 import utils.Utility;
 
 public class VerifySSC_CGL_TestSeriesFunctionality_testNG extends Base{
@@ -34,10 +38,21 @@ public class VerifySSC_CGL_TestSeriesFunctionality_testNG extends Base{
 	private MockTestSeriesPackPage mockTestSeriesPackPage;
 	private int testID;
 	
+	//ExtendReport
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
+	//ExtendReport
+	
 	@Parameters ("browser")
 	@BeforeTest
 	public void browserLaunch(String browserName)
 	{
+		//ExtendReport
+		reporter = new ExtentHtmlReporter("test-output/ExtentReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
+		//ExtendReport
+		
 		if(browserName.equals("Chrome"))
 		{
 			driver = openChromeBrowser();

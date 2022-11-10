@@ -17,10 +17,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import browserSetup.Base;
 import module.LoginPopup;
 import pages.HomePage;
 import pages.SSC_CGL_coursePage;
-import setup.Base;
 import utils.Utility;
 
 public class VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG extends Base{
@@ -32,11 +36,21 @@ public class VerifySubCategoryLinksOnSSC_CGL_CoursePage_testNG extends Base{
 	private SoftAssert soft;
 	private int testID;
 
+	//ExtendReport
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
+	//ExtendReport
 	
 	@Parameters ("browser")
 	@BeforeTest
 	public void browserLaunch(String browserName)
 	{
+		//ExtendReport
+		reporter = new ExtentHtmlReporter("test-output/ExtentReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
+		//ExtendReport
+		
 		if(browserName.equals("Chrome"))
 		{
 			driver = openChromeBrowser();
